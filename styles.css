@@ -1,0 +1,63 @@
+		input{
+			position: relative;
+			width: 100%
+			text-align:center;
+		}
+		main button{
+			border-radius: 4px;
+			width: 20%;
+			height: 20%;
+			background-color:#a3a3a3;
+		}
+		main{
+			border: 2px solid grey;
+			width: 200px;
+			margin-top: 100px;
+			height: 200px;
+			border-radius: 4px;
+			padding: 3px;
+			position: relative;
+			top: 50px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		#time{
+			position: relative;
+			bottom:50px;
+		}
+		section{
+			position: relative;
+			top: 150px;
+			width: 100%;
+			text-align: center;
+		}
+		article{
+			position: relative;
+			bottom:200px;
+			width: 100%;
+			text-align: center;
+			z-index: 0;
+		}
+		header{
+			background-color: #333333;
+			padding: 10px 0;
+			text-align: center;
+		  	position: fixed;
+			width: 100%;
+			top: 0;
+			left: 0;
+			z-index: 1;
+		}
+		header h2{
+		  color: #cccccc;
+		  border: 8px solid grey;
+		  display: inline-block;
+		  padding: 6px 12px;
+		  border-radius: 36px;
+		}
+		button:focus{
+			border: none;
+		  	outline: 0;
+		  	background-color: grey;
+		  	border-radius: 4px;
+		  }
